@@ -7,15 +7,17 @@ public class Sarmio {
 	public static void main(String[] args) {
 		
 		Scanner s= new Scanner (System.in);
-		System.out.println("Syötä särmiön leveys");
+		System.out.println("SyÃ¶tÃ¤ sÃ¤rmiÃ¶n leveys");
 		double l=s.nextDouble();
-		System.out.println("Syötä särmiön pituus");
+		System.out.println("SyÃ¶tÃ¤ sÃ¤rmiÃ¶n pituus");
 		double p=s.nextDouble();
-		System.out.println("Syötä särmiön korkeus");
+		System.out.println("SyÃ¶tÃ¤ sÃ¤rmiÃ¶n korkeus");
 		double k=s.nextDouble();
 		
+	//Koodi laskee sÃ¤rmiÃ¶n tilavuuden, kun sille syÃ¶ttÃ¤Ã¤ arvot	
+		
 	double tilavuus= l*p*k;
-		System.out.println("Särmiön tilavuus on:" +tilavuus);
+		System.out.println("SÃ¤rmiÃ¶n tilavuus on:" +tilavuus);
 		
 	}
 
