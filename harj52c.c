@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Koodin ideana on laskea onko annettu vuosiluku karkausvuosi
 int given;
 void leap_year(int year);
 int main(void)
